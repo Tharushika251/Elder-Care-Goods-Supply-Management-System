@@ -1,0 +1,37 @@
+/* AllCaretakers.css */
+
+.container {
+    max-width: 1200px; /* Set the maximum width of the container */
+    margin: auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+}
+
+.img-fluid {
+    width: 200%; /* Make the image fluid and take up the full width of its container */
+    height: 300px; /* Maintain the aspect ratio of the image */
+}
+
+.larger-heading {
+    font-size: 32px; /* Set a larger font size for headings */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.form-control {
+    width: 100%; /* Make form controls take up full width */
+}
+
+.table {
+    margin-top: 20px; /* Add margin above the table */
+}
+
+.btn {
+    font-size: 18px; /* Set a larger font size for buttons */
+    padding: 8px 16px; /* Add padding to buttons */
+}
+
+.btn-success {
+    background-color: #28a745; /* Set a green background color for success buttons */
+    color: #fff; /* Set text color to white */
+}
+
+/* Add more styles as needed for other elements */

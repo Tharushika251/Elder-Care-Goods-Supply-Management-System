@@ -1,0 +1,194 @@
+/* ===================================
+========= register page  */
+
+.registerlog{
+  background-image: url('../banner-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed even when scrolling */
+  height: auto;
+}
+.registerlog1 {
+  background-image: url('../MICROS1.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed even when scrolling */
+  height: auto;
+}
+
+
+.form-container {
+  margin-left: 100px;
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: flex-start; /* Align items to the start */
+  min-height: 70vh;
+  flex-direction: column;
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.form-container form {
+  border-radius: 15px;
+  background-color:#00000050;
+  padding: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-container form .title {
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-family: Tahoma, sans-serif;
+}
+
+
+
+.form-container form button {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: white;
+  border: 2px solid #555555;
+  border-radius: 15px;
+  box-shadow: 0 9px #00000033;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width:250px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container form button:hover {
+  background-color: #555555;
+  color: white;
+  
+  background: linear-gradient(
+    to right,
+    #4557ff,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-container{
+  text-align: center;
+}
+
+.btn-secondary{
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: white;
+  border: 2px solid #555555;
+  border-radius: 15px;
+  box-shadow: 0 9px #00000033;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width:250px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0; 
+  padding: 0;
+
+  
+}
+
+.form-container1 form {
+  border-radius: 15px;
+  background-color:#ffffff14;
+  padding: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.form-container1 form .title {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -40px;
+  font-weight: bold;
+  font-family: Tahoma, sans-serif;
+}
+
+
+
+.form-container1 form button {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: rgb(253, 253, 253);
+  border: 2px solid #555555;
+  border-radius: 15px;
+  box-shadow: 0 9px #00000033;
+  
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width:250px;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.form-container1 form button:hover {
+  background-color:  #0f40e0;
+  color: white;
+  
+  background: linear-gradient(
+    to right,
+    #0f40e0,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-container1{
+  text-align: center;
+}
+
+.sw1{
+  color: white;
+}
+.sw2{
+  color: white;
+}
+

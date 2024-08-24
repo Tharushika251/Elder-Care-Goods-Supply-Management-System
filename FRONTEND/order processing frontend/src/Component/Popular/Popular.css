@@ -1,0 +1,26 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+.popular h1{
+    color: #194486;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.popular-item img {
+    width: 90%;
+    height: 70%; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px hwb(228 81% 13% / 0.577); 
+}

@@ -1,0 +1,12 @@
+.aDash{
+    background-image: url('../MICROS1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed even when scrolling */
+    height: auto;
+}
+
+.h1{
+    color: white;
+}

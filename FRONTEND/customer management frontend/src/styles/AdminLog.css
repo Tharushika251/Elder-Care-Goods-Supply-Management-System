@@ -1,0 +1,40 @@
+.AdminLog {
+    background-image: url('../MICROS1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed even when scrolling */
+    height: auto;
+  }
+  .htitle1{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .button-container2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container2 button {
+    width: 300px;
+    height: 200px;
+    margin: 20px; /* Adjust spacing between buttons */
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 20px; /* Adjust button font size */
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+    border-radius: 15px;
+    background-color: #00000059; /* Default button background color */
+    color: rgb(255, 255, 255); /* Default button text color */
+    cursor: pointer;
+  }
+  
+  .button-container2 button:hover {
+    background-color: #0678ea; /* Button background color on hover */
+    color: black;
+  }
+  
+  

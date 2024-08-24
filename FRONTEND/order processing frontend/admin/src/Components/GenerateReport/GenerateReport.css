@@ -1,0 +1,120 @@
+/* Styles for GenerateReport component */
+
+.btn-generate-report {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #194486;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .report-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .report-header {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    
+  }
+  
+  .report-header h2 {
+    font-size: 44px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #194486;
+  }
+  
+  .report-header p {
+    margin: 5px 0;
+  }
+  
+  .report-footer {
+    margin-top: 80px; 
+    text-align: right;
+    margin-right: 140px;
+    margin-bottom: 20px;
+  }
+  
+  .report-footer p {
+    margin: 5px 0;
+  }
+  
+  .report-item {
+    margin-bottom: 40px;
+    padding-left: 50px;
+  }
+  
+  .report-item p {
+    margin: 5px 0;
+  }
+  
+  /* Styles for product details */
+  
+  .report-item p {
+    font-size: 18px;
+  }
+  
+  .report-item p:first-child {
+    font-weight: bold;
+  }
+  
+  .report-item hr {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+
+  hr {
+    border-top: 2px solid #9b9898; /* Adjust the thickness of the line */
+    margin: 40px 40px; /* Add some margin for spacing */
+}
+  
+
+.report-header table,
+.report-item table {
+  width: 95%;
+  border-collapse: collapse;
+  border: 1px solid #242323; /* Add border to the tables */
+}
+
+.report-header td,
+.report-item td {
+  padding: 8px;
+  border: 1px solid #242323; /* Add border to table cells */
+}
+
+
+.report-item tr:last-child td {
+  border-bottom: none; /* Remove bottom border for the last row in the product table */
+}
+
+/* Styles for GenerateReport component */
+
+/* Existing styles... */
+
+/* Add color to the first column */
+.report-header td:first-child,
+.report-item td:first-child {
+  color: #fff; /* Change text color to ensure readability */
+}
+
+/* Color for odd rows */
+.report-header tr:nth-child(odd) td:first-child,
+.report-item tr:nth-child(odd) td:first-child {
+  background-color: #194586c0; /* Change to the desired color for odd rows */
+}
+
+/* Color for even rows */
+.report-header tr:nth-child(even) td:first-child,
+.report-item tr:nth-child(even) td:first-child {
+  background-color: #7d7d7d; /* Change to the desired color for even rows */
+}
+
+/* Additional styles... */

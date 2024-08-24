@@ -1,0 +1,47 @@
+/* AuthStyles.css */
+
+.Home{
+  background-image: url('../banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed even when scrolling */
+  height: auto;
+}
+
+
+
+.button-container1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container1 button {
+    width: 300px;
+    height: 260px;
+    margin: 20px; /* Adjust spacing between buttons */
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 20px; /* Adjust button font size */
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+    border-radius: 15px;
+    background-color: #ffffff42; /* Default button background color */
+    color: rgb(0, 0, 0); /* Default button text color */
+    cursor: pointer;
+  }
+  
+  .button-container1 button:hover {
+    background-color: #00000059; /* Button background color on hover */
+    
+  }
+
+  
+
+  .htitle{
+    font-weight: 900;
+    text-align: start;
+    color: rgb(255, 255, 255);
+  }
+
+
+  

@@ -1,0 +1,59 @@
+/* Navigation.css */
+
+.blue-rectangle {
+    background-color: #194486;
+    height: 80px; /* Adjust the height as needed */
+    width: 100%; /* Full width of the header */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Ensure it appears above other elements */
+  }
+.navbar {
+    background-color: #121010;
+    color: #194486;
+    padding: 10px; /* Add padding to the top, bottom, left, and right */
+    width: 100%; /* Set the width to 100% to span the entire viewport */
+    box-sizing: border-box;
+    z-index: 1; /* Include padding and border in the width */
+  }
+  
+  /*
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }*/
+  
+  .navbar-brand {
+    text-decoration: none;
+    color: #0eeacd;
+    font-size: 1rem;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust logo size to make it smaller */
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 10px; /* Reduce the margin between navigation links */
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #171717;
+    font-size: 0.9rem; /* Reduce the font size of navigation links */
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
